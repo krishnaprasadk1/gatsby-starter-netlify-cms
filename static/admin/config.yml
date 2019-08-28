@@ -44,7 +44,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          
        - file: "src/pages/about/index.md"
         label: "About -new"
         name: "about1"
@@ -52,7 +51,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
