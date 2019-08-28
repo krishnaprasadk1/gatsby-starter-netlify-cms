@@ -85,3 +85,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.onCreateWebpackConfig = ({
+ stage, getConfig, rules, loaders, actions
+}) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: 'my-css',
+          use: [loaders.style(), loaders.css()]
+        },
+      ],
+    },
+  });
+}
