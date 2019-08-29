@@ -64,7 +64,7 @@ const ListsPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ListsPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -80,7 +80,7 @@ ListsPage.propTypes = {
 export default ListsPage
 
 export const ListsPageQuery = graphql`
-  query AboutPage($id: String!) {
+  query ListsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
