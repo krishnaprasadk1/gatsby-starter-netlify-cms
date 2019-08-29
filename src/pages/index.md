@@ -16,7 +16,7 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
-description1: This is the new description
+description1: This is the new description.
 intro:
   blurbs:
     - image: /img/coffee.png
