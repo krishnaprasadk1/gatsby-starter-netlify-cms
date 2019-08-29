@@ -1,8 +1,7 @@
 ---
-templateKey: 'lists-page'
-path: /lists
+templateKey: lists-page
 title: All Lists
-description: A great description
 ---
 # First Title
-Hello
+
+Hello World
