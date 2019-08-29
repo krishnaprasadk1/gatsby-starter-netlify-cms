@@ -86,4 +86,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-
+exports.onCreateNode = ({ node }) => {
+  console.log(node.internal.type)
+}
