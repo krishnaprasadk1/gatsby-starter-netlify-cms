@@ -1,6 +1,6 @@
 ---
 templateKey: lists-page
-title: All Lists
+title: All List
 ---
 # First Title
 
