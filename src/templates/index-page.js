@@ -177,6 +177,7 @@ export const pageQuery = graphql`
           description
         }
         description
+        description1
         intro {
           blurbs {
             image {
