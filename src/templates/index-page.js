@@ -84,6 +84,7 @@ export const IndexPageTemplate = ({
                       {heading}
                     </h3>
                     <p>{description}</p>
+                    <p>{description1}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
