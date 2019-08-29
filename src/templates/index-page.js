@@ -123,6 +123,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  description1: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -140,6 +141,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
+        description1={frontmatter.description1}
         intro={frontmatter.intro}
       />
     </Layout>
