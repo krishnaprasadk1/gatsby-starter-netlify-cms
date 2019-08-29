@@ -7,6 +7,7 @@ const ListsPage = ( {data} ) => {
       <div className="section">
         <h2 className="title is-size-3 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h2>
         <p>{post.frontmatter.description}</p>
+        <p>{post.frontmatter.html}</p>
       </div>
     );
 };
@@ -20,6 +21,7 @@ query ListsPage($id: String!) {
       title
       templateKey
       description
+      html
     }
   }
 }
