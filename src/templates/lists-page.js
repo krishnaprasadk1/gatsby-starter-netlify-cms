@@ -7,7 +7,7 @@ const ListsPage = ( {data} ) => {
       <div className="section">
         <h2 className="title is-size-3 has-text-weight-bold is-bold-light">{post.frontmatter.title}</h2>
         <p>{post.frontmatter.description}</p>
-        <p>{post.frontmatter.html}</p>
+        <p>{post.html}</p>
       </div>
     );
 };
@@ -17,11 +17,11 @@ export default ListsPage;
 export const ListsPageQuery = graphql`
 query ListsPage($id: String!) {
   markdownRemark(id: {eq: $id}) {
+    html
     frontmatter {
       title
       templateKey
       description
-      html
     }
   }
 }
