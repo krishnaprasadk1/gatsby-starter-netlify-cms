@@ -97,7 +97,7 @@ const Navbar = class extends React.Component {
       </nav>
       
     
-      <header>
+      
          <nav id="nav" class="#ffffff white" role="navigation">
             <div class="nav-wrapper container">
                <a id="logo-container" href="https://avlview.com" class="brand-logo">Logo</a>
@@ -149,7 +149,7 @@ const Navbar = class extends React.Component {
                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
          </nav>
-      </header>  
+        
 
     )
   }
