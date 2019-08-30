@@ -96,61 +96,6 @@ const Navbar = class extends React.Component {
         </div>
       </nav>
       
-    
-      
-         <nav id="nav" class="#ffffff white" role="navigation">
-            <div class="nav-wrapper container">
-               <a id="logo-container" href="https://avlview.com" class="brand-logo">Logo</a>
-               <div class="top_nav_raw01 hide-on-med-and-down">
-                  <ul>
-                     <li><a id="cntsg" href="https://avlview.com/contact-us" style="display: none;"> Contact Us |</a><a id="cntin" class="" href="https://avlview.com/contact-us/india"> Contact Us |</a></li>
-                     <li> <a href="http://support.avlview.com/support/home" target="_blank"> Support |</a></li>
-                     <li> <a href="https://app.avlview.com/" target="_blank"> Sign In |</a></li>
-                     <li> <a href="https://avlview.com/gps-tracking-blog"> Blog |</a></li>
-                     <li> <a href="https://avlview.com/ar"> <strong>عربي</strong> </a></li>
-                  </ul>
-               </div>
-               <div class="clear"></div>
-               <ul class="right hide-on-med-and-down" style="height: 30px;">
-                  <li><a href="https://avlview.com/gps-tracking-benefits/">Benefits </a></li>
-                  <li>
-                     <a href="javascript:void()" style="padding: 0px;">Features<span class="menu-dp-arrow"><i class="material-icons">
-                     arrow_drop_down
-                     </i></span></a>
-                     <ul>
-                        <li><a href="https://avlview.com/vehicle-tracking/">Vehicle Tracking</a></li>
-                        <li><a href="https://avlview.com/school-bus-tracking/">School Bus Tracking</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="https://avlview.com/vehicle-tracking-system-pricing/">Pricing</a></li>
-                  <li> <a href="https://avlview.com/fleet-automation-resources/"> Resources</a></li>
-                  <li><a href="https://avlview.com/become-a-partner/">Become a Partner</a></li>
-               </ul>
-               <ul id="nav-mobile" class="side-nav" style="left: -250px;">
-                  <li><a href="https://avlview.com/gps-tracking-benefits/">Benefits</a></li>
-                  <li>
-                     <a href="javascript:void()">Features<span class="menu-dp-arrow"><i class="material-icons">
-                     arrow_drop_down
-                     </i></span></a>
-                     <ul>
-                        <li><a href="https://avlview.com/vehicle-tracking/">Vehicle Tracking</a></li>
-                        <li><a href="https://avlview.com/school-bus-tracking/">School Bus Tracking</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="https://avlview.com/vehicle-tracking-system-pricing/">Pricing</a></li>
-                  <li> <a href="https://avlview.com/fleet-automation-resources"> Resources</a></li>
-                  <li><a href="https://avlview.com/become-a-partner">Become a Partner</a></li>
-                  <li> <a href="https://avlview.com/contact-us" id="cntsg"> Contact Us</a><a id="cntin" class="dn" href="https://avlview.com/contact-us/india"> Contact Us</a></li>
-                  <li> <a href="http://support.avlview.com/support/home" target="_blank"> Support </a></li>
-                  <li> <a href="https://app.avlview.com/" target="_blank"> Sign In </a></li>
-                  <li> <a href="https://avlview.com/gps-tracking-blog"> Blog </a></li>
-                  <li> <a href="https://avlview.com/ar"> <strong>عربي</strong> </a></li>
-               </ul>
-               <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
-         </nav>
-        
-
     )
   }
 }
