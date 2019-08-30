@@ -35,66 +35,57 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={avllogo} alt="Kaldi" style={{ width: '207px'}} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-              <Link className="navbar-item" to="/lists">
-                Lists
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <nav id="nav" className="#ffffff white" role="navigation">
+      <div className="nav-wrapper container">
+         <a id="logo-container" href="https://avlview.com" className="brand-logo">Logo</a>
+         <div className="top_nav_raw01 hide-on-med-and-down">
+            <ul>
+               <li><a id="cntsg" href="https://avlview.com/contact-us" style={{display: 'none'}}> Contact Us |</a><a id="cntin" className="" href="https://avlview.com/contact-us/india"> Contact Us |</a></li>
+               <li> <a href="http://support.avlview.com/support/home" target="_blank"> Support |</a></li>
+               <li> <a href="https://app.avlview.com/" target="_blank"> Sign In |</a></li>
+               <li> <a href="https://avlview.com/gps-tracking-blog"> Blog |</a></li>
+               <li> <a href="https://avlview.com/ar"> <strong>عربي</strong> </a></li>
+            </ul>
+         </div>
+         <div className="clear"></div>
+         <ul className="right hide-on-med-and-down" style={{height: '30px'}}>
+            <li><a href="https://avlview.com/gps-tracking-benefits/">Benefits </a></li>
+            <li>
+               <a href="javascript:void()" style={{padding: '0px'}}>Features<span className="menu-dp-arrow"><i className="material-icons">
+               arrow_drop_down
+               </i></span></a>
+               <ul>
+                  <li><a href="https://avlview.com/vehicle-tracking/">Vehicle Tracking</a></li>
+                  <li><a href="https://avlview.com/school-bus-tracking/">School Bus Tracking</a></li>
+               </ul>
+            </li>
+            <li><a href="https://avlview.com/vehicle-tracking-system-pricing/">Pricing</a></li>
+            <li> <a href="https://avlview.com/fleet-automation-resources/"> Resources</a></li>
+            <li><a href="https://avlview.com/become-a-partner/">Become a Partner</a></li>
+         </ul>
+         <ul id="nav-mobile" className="side-nav" style={{left: '-250px'}}>
+            <li><a href="https://avlview.com/gps-tracking-benefits/">Benefits</a></li>
+            <li>
+               <a href="javascript:void()">Features<span className="menu-dp-arrow"><i className="material-icons">
+               arrow_drop_down
+               </i></span></a>
+               <ul>
+                  <li><a href="https://avlview.com/vehicle-tracking/">Vehicle Tracking</a></li>
+                  <li><a href="https://avlview.com/school-bus-tracking/">School Bus Tracking</a></li>
+               </ul>
+            </li>
+            <li><a href="https://avlview.com/vehicle-tracking-system-pricing/">Pricing</a></li>
+            <li> <a href="https://avlview.com/fleet-automation-resources"> Resources</a></li>
+            <li><a href="https://avlview.com/become-a-partner">Become a Partner</a></li>
+            <li> <a href="https://avlview.com/contact-us" id="cntsg"> Contact Us</a><a id="cntin" className="dn" href="https://avlview.com/contact-us/india"> Contact Us</a></li>
+            <li> <a href="http://support.avlview.com/support/home" target="_blank"> Support </a></li>
+            <li> <a href="https://app.avlview.com/" target="_blank"> Sign In </a></li>
+            <li> <a href="https://avlview.com/gps-tracking-blog"> Blog </a></li>
+            <li> <a href="https://avlview.com/ar"> <strong>عربي</strong> </a></li>
+         </ul>
+         <a href="#" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
+      </div>
+   </nav>
       
     )
   }
